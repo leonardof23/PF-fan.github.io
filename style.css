@@ -1,0 +1,40 @@
+body,html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(fondo.png) center center;
+    background-size: cover;
+}
+.contenedor {
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.boton-redireccion {
+ background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.boton-redireccion:hover {
+    background-color: orange;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0px 5px;
+    font-size: 13px;
+    color: white;
+    background-color: orange;
+}
